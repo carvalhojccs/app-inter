@@ -1,0 +1,12 @@
+{
+  "name": "default",
+  "type": "postgres",
+  "host": "192.168.100.200",
+  "port": 5432,
+  "username": "inter",
+  "password": "123456",
+  "database": "interdb",
+  "entities": ["src/entity/*.ts"],
+  "logging": false,
+  "synchronize": true
+}
